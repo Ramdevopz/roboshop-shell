@@ -17,7 +17,7 @@ mv frontend-main/localhost.conf /etc/nginx/default.d/roboshop.conf
 STAT $?
 
 PRINT "Update RoboShop Configuration"
-sed -i -e '/catalogue/ s/localhost/dev-catalogue.devopsb69.online/'  -e '/user/ s/localhost/dev-user.devopsb69.online/' -e '/cart/ s/localhost/dev-cart.devopsb69.online/' -e '/shipping/ s/localhost/dev-shipping.devopsb69.online/' -e '/payment/ s/localhost/dev-payment.devopsb69.online/' /etc/nginx/default.d/roboshop.conf
+sed -i -e '/catalogue/ s/localhost/dev-catalogue.Ramdevopz.online/'  -e '/user/ s/localhost/dev-user.Ramdevopz.online/' -e '/cart/ s/localhost/dev-cart.Ramdevopz.online/' -e '/shipping/ s/localhost/dev-shipping.Ramdevopz.online/' -e '/payment/ s/localhost/dev-payment.Ramdevopz.online/' /etc/nginx/default.d/roboshop.conf
 STAT $?
 
 PRINT "Enable Nginx Service"
